@@ -1,5 +1,5 @@
 properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/syamsundarreddy78/multibranch.git'],
-            pipelineTriggers([upstream('Developer1u')]) ])
+            pipelineTriggers([upstream('master')]) ])
 
 pipeline {
     agent any
